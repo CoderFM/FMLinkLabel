@@ -15,6 +15,7 @@
 		1537BB261D9CC6C900EEB41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1537BB241D9CC6C900EEB41E /* LaunchScreen.storyboard */; };
 		1537BB311D9CC6C900EEB41E /* FMLinkLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB301D9CC6C900EEB41E /* FMLinkLabelTests.m */; };
 		1537BB3C1D9CC6C900EEB41E /* FMLinkLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB3B1D9CC6C900EEB41E /* FMLinkLabelUITests.m */; };
+		1537BB4B1D9CC6ED00EEB41E /* FMLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB4A1D9CC6ED00EEB41E /* FMLinkLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1537BB371D9CC6C900EEB41E /* FMLinkLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLinkLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1537BB3B1D9CC6C900EEB41E /* FMLinkLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLinkLabelUITests.m; sourceTree = "<group>"; };
 		1537BB3D1D9CC6C900EEB41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1537BB491D9CC6ED00EEB41E /* FMLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLinkLabel.h; sourceTree = "<group>"; };
+		1537BB4A1D9CC6ED00EEB41E /* FMLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMLinkLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1537BB151D9CC6C900EEB41E /* FMLinkLabel */ = {
 			isa = PBXGroup;
 			children = (
+				1537BB491D9CC6ED00EEB41E /* FMLinkLabel.h */,
+				1537BB4A1D9CC6ED00EEB41E /* FMLinkLabel.m */,
 				1537BB191D9CC6C900EEB41E /* AppDelegate.h */,
 				1537BB1A1D9CC6C900EEB41E /* AppDelegate.m */,
 				1537BB1C1D9CC6C900EEB41E /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1537BB1E1D9CC6C900EEB41E /* ViewController.m in Sources */,
+				1537BB4B1D9CC6ED00EEB41E /* FMLinkLabel.m in Sources */,
 				1537BB1B1D9CC6C900EEB41E /* AppDelegate.m in Sources */,
 				1537BB181D9CC6C900EEB41E /* main.m in Sources */,
 			);
