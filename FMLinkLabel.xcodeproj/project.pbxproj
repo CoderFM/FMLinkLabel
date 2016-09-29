@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1537BB181D9CC6C900EEB41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB171D9CC6C900EEB41E /* main.m */; };
+		1537BB1B1D9CC6C900EEB41E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB1A1D9CC6C900EEB41E /* AppDelegate.m */; };
+		1537BB1E1D9CC6C900EEB41E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB1D1D9CC6C900EEB41E /* ViewController.m */; };
+		1537BB211D9CC6C900EEB41E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1537BB1F1D9CC6C900EEB41E /* Main.storyboard */; };
+		1537BB231D9CC6C900EEB41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1537BB221D9CC6C900EEB41E /* Assets.xcassets */; };
+		1537BB261D9CC6C900EEB41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1537BB241D9CC6C900EEB41E /* LaunchScreen.storyboard */; };
+		1537BB311D9CC6C900EEB41E /* FMLinkLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB301D9CC6C900EEB41E /* FMLinkLabelTests.m */; };
+		1537BB3C1D9CC6C900EEB41E /* FMLinkLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1537BB3B1D9CC6C900EEB41E /* FMLinkLabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1537BB2D1D9CC6C900EEB41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1537BB0B1D9CC6C900EEB41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1537BB121D9CC6C900EEB41E;
+			remoteInfo = FMLinkLabel;
+		};
+		1537BB381D9CC6C900EEB41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1537BB0B1D9CC6C900EEB41E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1537BB121D9CC6C900EEB41E;
+			remoteInfo = FMLinkLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1537BB131D9CC6C900EEB41E /* FMLinkLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMLinkLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1537BB171D9CC6C900EEB41E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1537BB191D9CC6C900EEB41E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1537BB1A1D9CC6C900EEB41E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1537BB1C1D9CC6C900EEB41E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1537BB1D1D9CC6C900EEB41E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1537BB201D9CC6C900EEB41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1537BB221D9CC6C900EEB41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1537BB251D9CC6C900EEB41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1537BB271D9CC6C900EEB41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1537BB2C1D9CC6C900EEB41E /* FMLinkLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLinkLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1537BB301D9CC6C900EEB41E /* FMLinkLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLinkLabelTests.m; sourceTree = "<group>"; };
+		1537BB321D9CC6C900EEB41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1537BB371D9CC6C900EEB41E /* FMLinkLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLinkLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1537BB3B1D9CC6C900EEB41E /* FMLinkLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLinkLabelUITests.m; sourceTree = "<group>"; };
+		1537BB3D1D9CC6C900EEB41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1537BB101D9CC6C900EEB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB291D9CC6C900EEB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB341D9CC6C900EEB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1537BB0A1D9CC6C900EEB41E = {
+			isa = PBXGroup;
+			children = (
+				1537BB151D9CC6C900EEB41E /* FMLinkLabel */,
+				1537BB2F1D9CC6C900EEB41E /* FMLinkLabelTests */,
+				1537BB3A1D9CC6C900EEB41E /* FMLinkLabelUITests */,
+				1537BB141D9CC6C900EEB41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1537BB141D9CC6C900EEB41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1537BB131D9CC6C900EEB41E /* FMLinkLabel.app */,
+				1537BB2C1D9CC6C900EEB41E /* FMLinkLabelTests.xctest */,
+				1537BB371D9CC6C900EEB41E /* FMLinkLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1537BB151D9CC6C900EEB41E /* FMLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1537BB191D9CC6C900EEB41E /* AppDelegate.h */,
+				1537BB1A1D9CC6C900EEB41E /* AppDelegate.m */,
+				1537BB1C1D9CC6C900EEB41E /* ViewController.h */,
+				1537BB1D1D9CC6C900EEB41E /* ViewController.m */,
+				1537BB1F1D9CC6C900EEB41E /* Main.storyboard */,
+				1537BB221D9CC6C900EEB41E /* Assets.xcassets */,
+				1537BB241D9CC6C900EEB41E /* LaunchScreen.storyboard */,
+				1537BB271D9CC6C900EEB41E /* Info.plist */,
+				1537BB161D9CC6C900EEB41E /* Supporting Files */,
+			);
+			path = FMLinkLabel;
+			sourceTree = "<group>";
+		};
+		1537BB161D9CC6C900EEB41E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1537BB171D9CC6C900EEB41E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1537BB2F1D9CC6C900EEB41E /* FMLinkLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1537BB301D9CC6C900EEB41E /* FMLinkLabelTests.m */,
+				1537BB321D9CC6C900EEB41E /* Info.plist */,
+			);
+			path = FMLinkLabelTests;
+			sourceTree = "<group>";
+		};
+		1537BB3A1D9CC6C900EEB41E /* FMLinkLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1537BB3B1D9CC6C900EEB41E /* FMLinkLabelUITests.m */,
+				1537BB3D1D9CC6C900EEB41E /* Info.plist */,
+			);
+			path = FMLinkLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1537BB121D9CC6C900EEB41E /* FMLinkLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1537BB401D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabel" */;
+			buildPhases = (
+				1537BB0F1D9CC6C900EEB41E /* Sources */,
+				1537BB101D9CC6C900EEB41E /* Frameworks */,
+				1537BB111D9CC6C900EEB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMLinkLabel;
+			productName = FMLinkLabel;
+			productReference = 1537BB131D9CC6C900EEB41E /* FMLinkLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1537BB2B1D9CC6C900EEB41E /* FMLinkLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1537BB431D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabelTests" */;
+			buildPhases = (
+				1537BB281D9CC6C900EEB41E /* Sources */,
+				1537BB291D9CC6C900EEB41E /* Frameworks */,
+				1537BB2A1D9CC6C900EEB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1537BB2E1D9CC6C900EEB41E /* PBXTargetDependency */,
+			);
+			name = FMLinkLabelTests;
+			productName = FMLinkLabelTests;
+			productReference = 1537BB2C1D9CC6C900EEB41E /* FMLinkLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1537BB361D9CC6C900EEB41E /* FMLinkLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1537BB461D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabelUITests" */;
+			buildPhases = (
+				1537BB331D9CC6C900EEB41E /* Sources */,
+				1537BB341D9CC6C900EEB41E /* Frameworks */,
+				1537BB351D9CC6C900EEB41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1537BB391D9CC6C900EEB41E /* PBXTargetDependency */,
+			);
+			name = FMLinkLabelUITests;
+			productName = FMLinkLabelUITests;
+			productReference = 1537BB371D9CC6C900EEB41E /* FMLinkLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1537BB0B1D9CC6C900EEB41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周发明";
+				TargetAttributes = {
+					1537BB121D9CC6C900EEB41E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1537BB2B1D9CC6C900EEB41E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1537BB121D9CC6C900EEB41E;
+					};
+					1537BB361D9CC6C900EEB41E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1537BB121D9CC6C900EEB41E;
+					};
+				};
+			};
+			buildConfigurationList = 1537BB0E1D9CC6C900EEB41E /* Build configuration list for PBXProject "FMLinkLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1537BB0A1D9CC6C900EEB41E;
+			productRefGroup = 1537BB141D9CC6C900EEB41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1537BB121D9CC6C900EEB41E /* FMLinkLabel */,
+				1537BB2B1D9CC6C900EEB41E /* FMLinkLabelTests */,
+				1537BB361D9CC6C900EEB41E /* FMLinkLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1537BB111D9CC6C900EEB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1537BB261D9CC6C900EEB41E /* LaunchScreen.storyboard in Resources */,
+				1537BB231D9CC6C900EEB41E /* Assets.xcassets in Resources */,
+				1537BB211D9CC6C900EEB41E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB2A1D9CC6C900EEB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB351D9CC6C900EEB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1537BB0F1D9CC6C900EEB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1537BB1E1D9CC6C900EEB41E /* ViewController.m in Sources */,
+				1537BB1B1D9CC6C900EEB41E /* AppDelegate.m in Sources */,
+				1537BB181D9CC6C900EEB41E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB281D9CC6C900EEB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1537BB311D9CC6C900EEB41E /* FMLinkLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1537BB331D9CC6C900EEB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1537BB3C1D9CC6C900EEB41E /* FMLinkLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1537BB2E1D9CC6C900EEB41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1537BB121D9CC6C900EEB41E /* FMLinkLabel */;
+			targetProxy = 1537BB2D1D9CC6C900EEB41E /* PBXContainerItemProxy */;
+		};
+		1537BB391D9CC6C900EEB41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1537BB121D9CC6C900EEB41E /* FMLinkLabel */;
+			targetProxy = 1537BB381D9CC6C900EEB41E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1537BB1F1D9CC6C900EEB41E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1537BB201D9CC6C900EEB41E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1537BB241D9CC6C900EEB41E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1537BB251D9CC6C900EEB41E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1537BB3E1D9CC6C900EEB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1537BB3F1D9CC6C900EEB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1537BB411D9CC6C900EEB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMLinkLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1537BB421D9CC6C900EEB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMLinkLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1537BB441D9CC6C900EEB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMLinkLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMLinkLabel.app/FMLinkLabel";
+			};
+			name = Debug;
+		};
+		1537BB451D9CC6C900EEB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMLinkLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMLinkLabel.app/FMLinkLabel";
+			};
+			name = Release;
+		};
+		1537BB471D9CC6C900EEB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMLinkLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMLinkLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1537BB481D9CC6C900EEB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMLinkLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMLinkLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMLinkLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1537BB0E1D9CC6C900EEB41E /* Build configuration list for PBXProject "FMLinkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1537BB3E1D9CC6C900EEB41E /* Debug */,
+				1537BB3F1D9CC6C900EEB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1537BB401D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1537BB411D9CC6C900EEB41E /* Debug */,
+				1537BB421D9CC6C900EEB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1537BB431D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1537BB441D9CC6C900EEB41E /* Debug */,
+				1537BB451D9CC6C900EEB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1537BB461D9CC6C900EEB41E /* Build configuration list for PBXNativeTarget "FMLinkLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1537BB471D9CC6C900EEB41E /* Debug */,
+				1537BB481D9CC6C900EEB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1537BB0B1D9CC6C900EEB41E /* Project object */;
+}
