@@ -11,6 +11,7 @@
 typedef void(^FMLinkLabelClickItemBlock)(id transmitBody);
 
 @class FMLinkLabelClickItem;
+
 @interface FMLinkLabel : UILabel
 
 - (void)addClickText:(NSString *)text attributeds:(NSDictionary *)attributeds transmitBody:(id)transmitBody clickItemBlock:(FMLinkLabelClickItemBlock)clickBlock;
@@ -26,6 +27,8 @@ typedef void(^FMLinkLabelClickItemBlock)(id transmitBody);
 @property(nonatomic, assign)NSRange range;
 
 @property(nonatomic, assign)CGRect textRect;
+
+@property(nonatomic, strong)NSMutableArray *textRects;
 
 @property(nonatomic, strong)id transmitBody;
 

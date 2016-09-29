@@ -38,19 +38,32 @@
     self.userInteractionEnabled = YES;
     self.clipsToBounds = YES;
     self.textView.font = self.font;
+    self.textView.frame = CGRectMake(-5, -8, self.bounds.size.width + 10,  self.bounds.size.height + 18);
 }
 
 - (void)addClickItem:(FMLinkLabelClickItem *)item{
     
-    self.textView.selectedRange = item.range;
-    
-    CGRect rect = [self.textView firstRectForRange:self.textView.selectedTextRange];
-    
-    self.textView.selectedRange = NSMakeRange(0, 0);
-    
-    CGRect textRect = [self.textView convertRect:rect toView:self];
-    
-    item.textRect = textRect;
+    for (int i = 0; i < item.range.length; i++) {
+        
+        NSRange range = NSMakeRange(item.range.location + i, 1);
+        
+        self.textView.selectedRange = range;
+        
+        CGRect rect = [self.textView firstRectForRange:self.textView.selectedTextRange];
+        
+        self.textView.selectedRange = NSMakeRange(0, 0);
+        
+        CGRect textRect = [self.textView convertRect:rect toView:self];
+        
+        NSInteger remainder = (NSInteger)textRect.origin.y % (NSInteger)self.font.lineHeight;
+        
+        if (remainder > 0) {
+            textRect.origin.y += (self.font.lineHeight - remainder);
+        }
+        
+        [item.textRects addObject:[NSValue valueWithCGRect:textRect]];
+        
+    }
     
     [self.clickItems addObject:item];
 }
@@ -92,13 +105,15 @@
     __block BOOL isClickText = NO;
     
     [self.clickItems enumerateObjectsUsingBlock:^(FMLinkLabelClickItem *obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (CGRectContainsPoint(obj.textRect, point)) {
-            if (obj.clickBlock) {
-                obj.clickBlock(obj.transmitBody);
-                isClickText = YES;
-                *stop = YES;
+        [obj.textRects enumerateObjectsUsingBlock:^(NSValue *rectValue, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (CGRectContainsPoint([rectValue CGRectValue], point)) {
+                if (obj.clickBlock) {
+                    obj.clickBlock(obj.transmitBody);
+                    isClickText = YES;
+                    *stop = YES;
+                }
             }
-        }
+        }];
     }];
     
     if (!isClickText) {
@@ -185,6 +200,8 @@
     item.range = range;
     
     item.transmitBody = transmitBody;
+    
+    item.textRects = [NSMutableArray array];
     
     return item;
 }
